@@ -1,0 +1,28 @@
+/* Container for the product store */
+.product-list-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.store-title {
+    font-size: 3rem;
+    margin: 20px 0;
+    color: #333;
+}
+
+.product-list-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Flexbox container for the product cards */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
